@@ -19,6 +19,14 @@
 const sentence1 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
 console.log(`\nsentence1 -> ${sentence1}`);
 
+let sentence1LowerCase = sentence1.toLowerCase();
+console.log(`sentence1LowerCase -> ${sentence1LowerCase}`);
+
+
+let sentence1_Replace_a_QueenandKing = sentence1.replace('a', 'Queen and King');
+console.log(`sentence1_Replace_a_QueenandKing -> ${sentence1_Replace_a_QueenandKing}`);
+
+
 
 
 
@@ -27,7 +35,7 @@ console.log(`\nsentence1 -> ${sentence1}`);
  * Q2: print the result of following in console:
  * 1. length of sentence2-String
  * 
-
+ 
 **/
 
 let sentence2 = 'CompreheNSIVe UP-to-DATE neWs CoverAgE, aggRegateD frOM soURCeS alL oVeR tHE wORld by GOOgle NeWs.';
